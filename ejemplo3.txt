@@ -9,3 +9,8 @@ del archivo correspondiente al instante en que ejecutaste git add. Anteriormente
 ejecutaste luego git add (files) - lo cual inició el rastreo de archivos en tu directorio. El comando git 
 add puede recibir tanto una ruta de archivo como de un directorio; si es de un directorio, el comando añade 
 recursivamente los archivos que están dentro de él.
+
+Ambos archivos están preparados y formarán parte de tu próxima confirmación. En este momento, 
+supongamos que recuerdas que debes hacer un pequeño cambio en CONTRIBUTING.md antes de confirmarlo. 
+Abres de nuevo el archivo, lo cambias y ahora estás listos para confirmar. Sin embargo, ejecutemos git 
+status una vez más:
