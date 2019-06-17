@@ -8,3 +8,6 @@ proyecto y ver cambios entre confirmaciones, y cómo enviar (push) y recibir (pu
 
 Para comenzar a rastrear un archivo debes usar el comando git add. Para comenzar a rastrear el archivo README, 
 puedes ejecutar lo siguiente:
+
+Vamos a cambiar un archivo que esté rastreado. Si cambias el archivo rastreado llamado “CONTRIBUTING.md” y 
+luego ejecutas el comando git status, verás algo parecido a esto:
