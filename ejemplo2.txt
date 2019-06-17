@@ -7,3 +7,6 @@ servidor se corrompe, puedes usar cualquiera de los clones en cualquiera de los 
 servidor al estado en el que estaba cuando fue clonado (puede que pierdas algunos hooks del lado del servidor 
 y demás, pero toda la información acerca de las versiones estará ahí) — véase Configurando Git en un servidor 
 para más detalles.
+
+Ahora si vuelves a ver el estado del proyecto, verás que el archivo README está siendo rastreado y está 
+preparado para ser confirmado:

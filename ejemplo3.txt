@@ -2,3 +2,10 @@ Git te permite usar distintos protocolos de transferencia. El ejemplo anterior u
 pero también puedes utilizar git:// o usuario@servidor:ruta/del/repositorio.git que utiliza el protocolo de 
 transferencia SSH. En Configurando Git en un servidor se explicarán todas las opciones disponibles a la hora 
 de configurar el acceso a tu repositorio de Git, y las ventajas e inconvenientes de cada una.
+
+Puedes ver que está siendo rastreado porque aparece luego del encabezado “Cambios a ser confirmados” 
+(“Changes to be committed” en inglés). Si confirmas en este punto, se guardará en el historial la versión 
+del archivo correspondiente al instante en que ejecutaste git add. Anteriormente cuando ejecutaste git init, 
+ejecutaste luego git add (files) - lo cual inició el rastreo de archivos en tu directorio. El comando git 
+add puede recibir tanto una ruta de archivo como de un directorio; si es de un directorio, el comando añade 
+recursivamente los archivos que están dentro de él.
